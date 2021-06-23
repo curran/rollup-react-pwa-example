@@ -1,0 +1,31 @@
+{
+  "name": "rollup-react-pwa-example",
+  "version": "1.0.0",
+  "description": "An example project setup with Rollup, server-side React rendering, and code splitting.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier {*.*,**/*.*} --single-quote --write",
+    "build": "rollup -c",
+    "start": "npm run build && node server/build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curran/rollup-react-pwa-example.git"
+  },
+  "author": "Curran Kelleher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curran/rollup-react-pwa-example/issues"
+  },
+  "homepage": "https://github.com/curran/rollup-react-pwa-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "prettier": "^2.3.1",
+    "rollup": "^2.52.2"
+  }
+}

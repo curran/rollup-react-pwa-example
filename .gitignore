@@ -1,0 +1,5 @@
+node_modules
+*.swp
+server/build
+public/build
+package-lock.json
